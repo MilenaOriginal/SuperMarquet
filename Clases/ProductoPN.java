@@ -1,12 +1,14 @@
 package supermercado;
 
 public class ProductoPN extends Producto{
-    
-    public ProductoPN(String nombre, int precio, boolean precioCuid){
+    private double cantDescontada;
+        
+    public ProductoPN(double cantDescontada, String nombre, int precio, boolean precioCuid){
         super(nombre,precio,precioCuid);
+        this.cantDescontada=precio/10;
     }
     public double aplicarDescuento(){
-        double precioD=precio-precio/10;
+        double precioD=precio-cantDescontada;
         return precioD;
     }
     public boolean tipo(){
