@@ -1,2 +1,8 @@
 # SuperMarket
--Clases
+##Clases
+- Producto
+- ProductoPN
+- Dia
+- Venta
+- Hora
+- Fecha
