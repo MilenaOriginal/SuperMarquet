@@ -1,5 +1,5 @@
 # SuperMarket
-##Clases
+## Clases
 - Producto
 - ProductoPN
 - Dia
