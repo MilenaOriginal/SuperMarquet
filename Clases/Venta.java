@@ -6,8 +6,10 @@ public class Venta {
     private ArrayList<Producto> productos;
     private double precioT;
     private Hora hora;
-    
-    public Venta(ArrayList<Producto> p, Hora hora){
+  /* Venta NO debería recibir la lista de productos, sino que debería poder agregar productos a la lista
+     para lo que también faltaría el método agregarProducto(Producto p) */
+  
+public Venta(ArrayList<Producto> p, Hora hora){
         this.productos = p;
         this.hora = hora;
         double pt=0;
