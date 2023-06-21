@@ -5,7 +5,7 @@ public class ProductoPN extends Producto{
     // ademas es un porcetnaje sobre el precio, por lo que hay que calcularlo NO recibirlo
     private double cantDescontada;
         
-    public ProductoPN(double cantDescontada, String nombre, int precio, boolean precioCuid){
+    public ProductoPN(String nombre, int precio, boolean precioCuid){
         super(nombre,precio,precioCuid);
         // NO debería recibir cantDescontada sino "porc" de tipo int
         // this.precio=precio - ((precio * porc)/100)
