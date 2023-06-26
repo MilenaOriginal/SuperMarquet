@@ -11,3 +11,5 @@
 - Venta
 - Hora
 - Fecha
+## Funcionalidad
+- 
